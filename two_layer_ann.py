@@ -52,7 +52,7 @@ for iter in xrange(1000):
     syn0 += np.dot(l0.T, l1_delta)
 
 print "Output After Testing:"
-print l1
+print l1 
     
     
     
