@@ -1,6 +1,6 @@
-UTAustinX-UT.7.01x-Foundations-of-Data-Analysis
+# UTAustinX-UT.7.01x-Foundations-of-Data-Analysis
 
-About this Course
+## About this Course
 
 This course will consist of instructional videos for statistical concepts broken down into manageable chunks – each followed by some guided questions to help your understanding of the topic. Most weeks, the instructional section will be followed by tutorial videos for using R, which we’ll then apply to a hands-on Lab where we will answer a specific question using real-world datasets.
 
@@ -8,13 +8,13 @@ We’ll cover basic Descriptive Statistics in our first “Unit” – learning 
 
 This course is intended to have the same “punch” as a typical introductory undergraduate statistics course, with an added twist of modeling. This course is also intentionally devised to be sequential, with each new piece building on the previous topics. Once completed, students should feel comfortable using basic statistical techniques to answer their own questions about their own data, using a widely available statistical software package (R).
 
-Course Outline
+## Course Outline
 
-Week One: Introduction to Data
+** Week One: Introduction to Data 
 
 Why study statistics? Variables and data Getting to know R and RStudio
 
-Week Two: Univariate Descriptive Statistics
+** Week Two: Univariate Descriptive Statistics ** 
 
 Graphs and distribution shapes
 
@@ -24,7 +24,7 @@ The Normal distribution
 
 Z-scores
 
-Week Three: Bivariate Distributions
+** Week Three: Bivariate Distributions **
 
 The scatterplot
 
