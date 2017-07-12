@@ -10,11 +10,11 @@ This course is intended to have the same “punch” as a typical introductory u
 
 ## Course Outline
 
-** Week One: Introduction to Data 
+**Week One: Introduction to Data**
 
 Why study statistics? Variables and data Getting to know R and RStudio
 
-** Week Two: Univariate Descriptive Statistics ** 
+**Week Two: Univariate Descriptive Statistics** 
 
 Graphs and distribution shapes
 
@@ -24,13 +24,13 @@ The Normal distribution
 
 Z-scores
 
-** Week Three: Bivariate Distributions **
+**Week Three: Bivariate Distributions**
 
 The scatterplot
 
 Correlation
 
-Week Four: Bivariate Distributions (Categorical Data)
+**Week Four: Bivariate Distributions (Categorical Data)**
 
 Contingency tables
 
@@ -38,7 +38,7 @@ Conditional probability
 
 Examining independence
 
-Week Five: Linear Functions
+**Week Five: Linear Functions**
 
 What is a function?
 
@@ -46,7 +46,7 @@ Least squares
 
 The Linear function – regression
 
-Week Six: Exponential and Logistic Function Models
+**Week Six: Exponential and Logistic Function Models**
 
 Exponential data
 
