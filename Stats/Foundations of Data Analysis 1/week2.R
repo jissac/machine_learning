@@ -34,6 +34,14 @@ sd(animaldata$Age.Intake)
 # [min, 1st quart, median, 3rd quart,max]
 fivenum(animaldata$Age.Intake)
 
+hours<-c(10,2,6,12,14,15,15,24,15,25,3,12)
+mean(hours)
+sd(hours)
+fivenum(hours)
+plot(hours)
+median(hours)
+range(hours)
+IQR(hours)
 ##################################
 # Prelab
 animaldata <- AnimalData
@@ -80,4 +88,23 @@ median(adult_cats$Weight)
 all_dogs = animaldata[animaldata$Animal.Type=='Dog',]
 mode(all_dogs$Intake.Type)
 
-
+###############################
+# Problem sets
+animaldata <- AnimalData
+table(animaldata$Intake.Type=="Owner Surrender")
+owner_surrender<-animaldata[animaldata$Intake.Type=="Owner Surrender",]
+table(owner_surrender$Outcome.Type=='Return to Owner')
+owner_returned<- owner_surrender[owner_surrender$Outcome.Type=='Return to Owner',]
+mean(owner_returned$Days.Shelter)
+# 2 2 3 5 6 7 9 13 15 18
+# median = (6+C)/2 = 6.5
+C = (2*6.5)-6
+# E-2=16, E=18
+# IQR = Q3-Q1, D-3=10, D=13
+# mean = 8 = (B+75)/10, B = 5
+array = c(2,2,3,5,6,7,9,13,15,18)
+mean(array)
+median(array)
+IQR(array)
+range(array)
+?IQR
