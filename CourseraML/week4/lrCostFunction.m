@@ -37,12 +37,11 @@ grad = zeros(size(theta));
 %
 h_theta = sigmoid(X*theta);
 % Without regularization
-    % J = 1/m * sum(-y_t.*log(h_theta)-(1-y_t).*log(1-h_theta));
-    % grad = 1/m*X_t'*(h_theta-y_t);
+%J = 1/m * sum(-y.*log(h_theta)-(1-y).*log(1-h_theta));
+%grad = 1/m*X'*(h_theta-y);
 
 % Regularized logistic regression
 J = 1/m * sum(-y.*log(h_theta)-(1-y).*log(1-h_theta)) + lambda/(2*m)*sum(theta(2:end).^2);
-
 grad = 1/m*X'*(h_theta-y);
 temp = theta;
 temp(1) = 0;
